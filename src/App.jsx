@@ -11,10 +11,12 @@ function App() {
   return (
     
       <div className='font-body'>
+
       <div className='grid md:grid-cols-3'>
     <div className='md:col-span-1 md:flex md:justify-end'>
     <nav className={`text-right ${isNavOpen ? 'nav-open' : ''}`}>
         <div className='flex justify-between items-center'>
+          
           <h1>
                   {/* responsive making */}
             <a href="/" className='hover:text-green-600'>Food Ninja</a>
